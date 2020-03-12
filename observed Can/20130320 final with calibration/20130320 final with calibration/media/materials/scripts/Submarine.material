@@ -1,0 +1,17 @@
+
+material Material
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.752941 0.752941 0.752941 1
+			diffuse 0.752941 0.752941 0.752941 1
+			specular 0.752941 0.752941 0.752941 1 20
+		}
+
+	}
+
+}
+
+

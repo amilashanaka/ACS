@@ -1,0 +1,462 @@
+
+material Archmodels55_37_glass_white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.0784314 0.0784314 0.0784314 1
+			specular 0 0 0 100 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_glass_black
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.156863 0.156863 0.156863 1
+			specular 0 0 0 100 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_carpaint
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.501961 0.188235 0.188235 1
+			specular 0 0 0 90 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_grey
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.517647 0.537255 0.54902 1
+			specular 0 0 0 99 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.65098 0.266667 0.266667 1
+			specular 0 0 0 99 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.960784 0.960784 0.960784 1
+			specular 0 0 0 98 0
+		}
+
+	}
+
+}
+
+
+
+material Material#703
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#704
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#705
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#707
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#706
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#708
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material orange
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.733333 0.501961 0.313726 1
+			diffuse 0.733333 0.501961 0.313726 1
+			specular 0.913726 0.913726 0.913726 1 75
+		}
+
+	}
+
+}
+
+
+
+material green
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.458824 0.372549 1
+			diffuse 0.368627 0.458824 0.372549 1
+			specular 0.913726 0.913726 0.913726 1 75
+		}
+
+	}
+
+}
+
+
+
+material plastic_black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.196078 0.196078 0.196078 1
+			diffuse 0.196078 0.196078 0.196078 1
+			specular 0.18 0.18 0.18 1 20
+		}
+
+	}
+
+}
+
+
+
+material blue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.345098 0.380392 0.494118 1
+			diffuse 0.345098 0.380392 0.494118 1
+			specular 0.693 0.693 0.693 1 50
+		}
+
+	}
+
+}
+
+
+
+material white
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.921569 0.921569 0.921569 1
+			diffuse 0.921569 0.921569 0.921569 1
+			specular 1 1 1 1 70
+		}
+
+	}
+
+}
+
+
+
+material brown
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.509804 0.341176 0.207843 1
+			diffuse 0.509804 0.341176 0.207843 1
+			specular 0.1 0.1 0.1 1 10
+		}
+
+	}
+
+}
+
+
+
+material blue2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.65098 0.709804 1
+			diffuse 0.580392 0.65098 0.709804 1
+			specular 0.693 0.693 0.693 1 55
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_grey
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.517647 0.537255 0.54902 1
+			specular 0 0 0 99 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.960784 0.960784 0.960784 1
+			specular 0 0 0 98 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_black_plastic
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.196078 0.196078 0.196078 1
+			specular 0 0 0 70 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_grey
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.517647 0.537255 0.54902 1
+			specular 0 0 0 99 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.65098 0.266667 0.266667 1
+			specular 0 0 0 99 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.960784 0.960784 0.960784 1
+			specular 0 0 0 98 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_board
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.5 0.5 0.5 1
+			specular 0 0 0 98 0
+		}
+
+	}
+
+}
+
+
+
+material Archmodels55_37_white
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.960784 0.960784 0.960784 1
+			specular 0 0 0 98 0
+		}
+
+	}
+
+}
+
+
+
+material yellow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.788235 0.611765 0.301961 1
+			diffuse 0.788235 0.611765 0.301961 1
+			specular 0.913726 0.913726 0.913726 1 75
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,463 @@
+
+material Iron
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.269412 0.269412 0.269412 1 40
+		}
+
+	}
+
+}
+
+
+
+material Whitedeckhouse
+{
+	technique
+	{
+		pass
+		{
+			specular 0.3 0.3 0.3 1 40
+		}
+
+	}
+
+}
+
+
+
+material White1
+{
+	technique
+	{
+		pass
+		{
+			specular 0.3 0.3 0.3 1 40
+
+			texture_unit
+			{
+				texture LIFEBOAT.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material Brown
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.321569 0.180392 0.0901961 1
+			diffuse 0.321569 0.180392 0.0901961 1
+			specular 0.0898039 0.0898039 0.0898039 1 1
+		}
+
+	}
+
+}
+
+
+
+material Yellow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.866667 0.596078 0.0117647 1
+			diffuse 0.866667 0.596078 0.0117647 1
+			specular 0.0784314 0.0784314 0.0784314 1 1
+		}
+
+	}
+
+}
+
+
+
+material Platform
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.498039 0.498039 0.498039 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0.627451 0.627451 0.627451 1 20
+		}
+
+	}
+
+}
+
+
+
+material Metalchrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 1 1 1 1 81
+		}
+
+	}
+
+}
+
+
+
+material Blackmetal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.627451 0.627451 0.627451 1 20
+		}
+
+	}
+
+}
+
+
+
+material Maindeck1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.129412 0.176471 0.121569 1
+			diffuse 0.129412 0.176471 0.121569 1
+			specular 0.784314 0.784314 0.784314 1 100
+		}
+
+	}
+
+}
+
+
+
+material Maindeck2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.129412 0.176471 0.121569 1
+			diffuse 0.129412 0.176471 0.121569 1
+			specular 0.784314 0.784314 0.784314 1 100
+		}
+
+	}
+
+}
+
+
+
+material Maindeck3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.129412 0.176471 0.121569 1
+			diffuse 0.129412 0.176471 0.121569 1
+			specular 0.784314 0.784314 0.784314 1 100
+		}
+
+	}
+
+}
+
+
+
+material Darkgreen
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.129412 0.172549 0.121569 1
+			diffuse 0.129412 0.172549 0.121569 1
+			specular 0.784314 0.784314 0.784314 1 100
+		}
+
+	}
+
+}
+
+
+
+material Woodfloor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.269412 0.269412 0.269412 1 40
+
+			texture_unit
+			{
+				texture Nedwood.jpg
+				transform 6.84571e-007 20 0 1.26881e-008 -20 1.19209e-006 0 1 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Deck
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0 0 0 1 1
+		}
+
+	}
+
+}
+
+
+
+material Colourlines
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture HULL.JPG
+				transform -1 -8.74228e-008 0 1 8.74228e-008 -1 0 1 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material RightNedlloyd
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture NEDLLOYD.JPG
+				transform -1 -8.74228e-008 0 1 8.74228e-008 -1 0 1 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material RightRotterdam
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture ROUEN.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material LeftNedlloyd
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture NEDLLOYD.JPG
+				transform -1 -8.74228e-008 0 1 8.74228e-008 -1 0 1 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material LeftRotterdam
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture ROUEN.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material Green
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.223529 0.611765 0.113725 1
+			diffuse 0.223529 0.611765 0.113725 1
+			specular 0.627451 0.627451 0.627451 1 20
+		}
+
+	}
+
+}
+
+
+
+material White
+{
+	technique
+	{
+		pass
+		{
+			specular 0.627451 0.627451 0.627451 1 20
+		}
+
+	}
+
+}
+
+
+
+material Smmingpool
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.269412 0.269412 0.269412 1 40
+		}
+
+	}
+
+}
+
+
+
+material Smokestack
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.627451 0.627451 0.627451 1 20
+
+			texture_unit
+			{
+				texture SMKSTACK.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material MetalYellow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.866667 0.596078 0.0117647 1
+			diffuse 0.866667 0.596078 0.0117647 1
+			specular 0.627451 0.627451 0.627451 1 20
+		}
+
+	}
+
+}
+
+
+
+material Glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0509804 0.196078 0.00392157 1
+			diffuse 0.0509804 0.196078 0.00392157 1
+			specular 1 1 1 1 100
+		}
+
+	}
+
+}
+
+

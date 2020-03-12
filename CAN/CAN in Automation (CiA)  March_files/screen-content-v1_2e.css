@@ -1,0 +1,1489 @@
+@font-face {
+    font-family:"URW Imperial";
+    src:url(fileadmin/cia/fonts/URWImperialTOT-BolObl.otf) format(OpenType);
+}
+/* screen-content-v1_2e.css 25-10-2007_1 */
+
+#content {
+  /*  float:left;*/
+    position:absolute;    
+    padding:0em 0.4em 2em 0.4em;
+    margin:0em;
+    border-bottom:10px solid #ffffff;	
+    width:74%;
+    text-align:justify;ƒ
+}
+    
+a,#content a {color:#336699; text-decoration:none;}
+	
+#content  h1 { 	
+    background-color:#ffffff;  
+    padding:0px 0px 0px 14px;
+    margin:0px;
+    font-size:1.3em;
+    /* font-size:1.4em;  eh 2010-29-7 */
+    line-height:1.1em;
+    font-weight:bold;
+    font-style:oblique;
+    font-family:"URW Imperial","URW Imperial T","Times New Roman",serif;
+    color:#009173;
+    text-align:left;
+}
+
+#content .content {
+    padding:0.3em 0.8em;
+}
+
+#content .content div {
+    padding-bottom:0.1em;
+}
+
+/*  members' profiles eh 2009-8-18/19;  2011-7-18 */
+#content .content div.cardBlock{font-size:0.8em;line-height:1.5em;text-align:left;}
+div.cardBlock div{font-size:0.8em;line-height:1.5em;white-space:normal;}
+#content .content div.cardBlock ul, #content .content div.cardBlock ul li {
+    font-size:1em;line-height:1.2em;text-align:left;}
+span.title {font-weight:bold;}
+/*  /members' profiles eh 2009-8-18/19  */
+
+#content .content h1 {
+    /*padding:1em 0em;  eh 2010-7-22   */
+    padding:0.2em 0em;
+    background-color:#ffffff;
+   /* font-size:1.2em;  eh 2010-29-7 */
+    font-size:1.1em;
+    font-weight:bold;
+    font-style:oblique;
+    color:#009173;
+    text-align:left;
+    font-family:"URW Imperial","URW Imperial T","Times New Roman",serif;   
+}
+
+#content .content h1 a {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#content .content h2 {
+     /* font-size:1.2em;  eh 2010-29-7 */
+    font-size:1.1em;
+    font-weight:normal;
+    font-style:italic;
+    font-family:"Times New Roman",serif;
+    color:#009173;
+    background-color:#ffffff;
+}
+
+#content .content h3 {
+    font-size:1em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:"Times New Roman",serif;
+    color:#009173;
+    background-color:#ffffff;
+}
+
+/* eh 13-7-2010 */
+#content .content h3.h3URW {color:#000000;font-family:serif;font-size:1em;margin:0.7em 0 0.3em;}
+
+#content .content h4 {
+     /* font-size:1em;  eh 2010-29-7 */
+    font-size:0.9em;
+    font-weight:normal;
+    font-style:italic;
+    font-family:"Times New Roman",serif;    
+    color:#009173;
+    background-color:#ffffff;
+}
+#content .content h5 {
+    font-size:0.9em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:"Times New Roman",serif;    
+    color:#009173;
+    background-color:#ffffff;
+}
+#content .content h6 {
+    font-size:0.9em;
+    font-weight:normal;
+    font-style:normal;
+    font-family:"Times New Roman",serif;    
+    color:#009173;
+    background-color:#ffffff;
+}
+
+
+#content .content table {
+    font-size:0.8em;
+    line-height:1.5em;
+    margin-top:0.7em;
+}
+#content .content table.contenttable tr td p.bodytext {
+    font-size:1em;
+    line-height:1.5em;
+    margin:0px;
+}
+#content .content table.contenttable tr th {
+    font-size:0.9em;
+    vertical-align:text-bottom;
+}
+#content .content table.contenttable tr td{
+    font-size:1em;
+    vertical-align:text-bottom;
+}
+
+#content .content tr, th {
+    vertical-align:top;
+    text-align:left;
+}
+
+
+#content .content .bodytext, #content .content p {
+    font-size:0.8em;
+    line-height:1.5em;    
+    font-family:Verdana,Geneva,Helvetica,Arial,"Arial Unicode MS",sans-serif;}
+
+#content .content .bodytext em {
+    /*font-size:0.8em;
+    color:#a9a9a9;*/
+}
+
+#content .content ul, #content .content ol {
+    font-size:0.8em; 
+    line-height:1.2em;
+    padding-bottom:0.4em;
+    font-family:Verdana,Geneva,Helvetica,Arial,"Arial Unicode MS",sans-serif;
+}
+#content .content ul ul {font-size:1em;line-height:1.4em;}
+/**/
+#content .content li {
+    /*font-size:8pt; */ 
+    line-height:1.2em;
+    padding-bottom:0.4em;    padding-right:2em;
+    font-family:Verdana,Geneva,Helvetica,sans-serif;
+}
+
+#content .content ul.csc-menu li p {font-size:9pt;}
+#content .content ul.csc-menu li ul li {font-size:9pt;}
+/*  eh 17-8-2008 Umrandung ausgeblendet */
+#content .content dl {
+    padding:10px;
+    /*border:2px outset #008364;
+    margin:0em 0em 0.5em 1em;*/
+    background:#FFFFFF;
+}
+
+#content .content dl dt {
+}
+
+#content .content dl dd {
+    font-family:"Times New Roman",Times,serif;
+    font-size:0.8em;
+    font-weight:bold;
+    text-align:center;
+    margin-top:0.5em;
+    padding:0.3em 0.8em 0em 0.8em;
+}
+
+#content .content dd.csc-textpic-caption {
+    font-family:verdana,helvetica,Arial,"Arial Unicode MS",sans-serif; font-size:0.7em; font-style:italic; color:#a9a9a9; font-weight:normal;}
+/* 9-6-2009 eh  */
+#content .content .columns {
+    display:block;
+    /*font-size:0.9em;*/
+    text-align:left;
+}
+
+#content .content .columns .content {
+    display:block;
+    float:left;
+    width:45%;
+    background-color:#F7F7F7;
+    margin:0.8em;
+    padding:0em;
+}
+/* eh 2009-7-29, 2010-08-19 padding:0.3em 0.2em 0.2em 0em;  */
+#content .content .columns .content h1 {
+    background-color:#FAFAFA;
+    margin:0em;
+    padding:0.3em 0.2em 0.2em 0.3em;
+    /*font-size:1.1em;*/
+    /*font-size:1.2em; eh 2010-29-7 */
+    line-height:1em;
+    font-weight:bold;
+}
+/* %% */
+#content .content .columns .content h4 {
+    background-color:#FAFAFA;
+    margin:0em;
+    padding:0.3em 0.5em 0.2em;
+    font-size:1.1em;
+    /*font-size:1.2em; eh 2010-29-7 */
+    line-height:1em;
+    font-weight:bold;
+}
+
+#content .content .columns .content li {
+    line-height:1em;
+    /*font-size:1em;*/
+}
+
+#content .content .columns .content li a {
+   /* font-size:0.9em;*/
+}
+
+/*body#uid195 #content .content .columns .content,
+body#uid26 #content .content .columns .content {
+    position:absolute;    
+    padding:0.2em 0.4em 0.5em 0.4em;
+    margin:0em;	
+    width:90%;
+    background-color:#ffffff;
+    text-align:justify;
+}
+*/
+
+#content a.internal-link {
+    /*color:blue;*/
+    color:#003366;
+    padding-top:2px;
+    padding-bottom:2px;
+    /*padding-left:16px;*/
+}
+
+#content a.external-link-new-window {
+    color:red;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:18px;
+    background:url(../../../typo3/gfx/i/pages_language_overlay.gif) no-repeat center left;
+}
+
+.csc-linkToTop {margin:0;padding:0 0 20px 0;}
+
+.bodytext {
+}
+
+#content .content blockquote .bodytext {
+  /*  width:35em;
+    font-size:0.8em;
+    line-height:1.2em;
+    color:grey;*/
+}
+
+#content .content .content {width:100%; padding:0;}
+
+/* *****************************Formular*************************************** */
+.contact{
+  margin-top:20px;
+}
+
+input, textarea {
+    margin:0.2em 0em 0.4em 0em; 
+    border:1px solid silver; 
+    background-color:#f7f7f7; 
+    font-family:verdana,helvetica,Arial,"Arial Unicode MS",sans-serif; 
+    font-size:0.9em; 
+    color:#333333; 
+    font-weight:normal;
+}
+
+ .comment{
+    width:100%;
+    clear:both;
+    float:none;
+    font-size:0.8em;
+    padding:0.7em 0 0.5em 0;
+}
+
+#mailform .contact .comment p { font-size:1em; }
+
+.comment .trenner {
+    background-color:#f7f7f7; 
+    border-top:1px solid #ededed; 
+    border-bottom:1px solid #ededed; 
+    height:1.2em;
+    text-align:center;
+    font-size:0.9em;
+}
+
+label { font-size:98%; }
+
+.label{
+    width:48%;
+    float:left;
+    text-align:right; 
+    padding:5px;
+    font-size:0.8em; line-height:1em;
+    /*clear:left;*/
+}
+
+.label em {
+    font-size:0.9em;
+}
+
+.label b {
+    font-size:0.9em;
+}
+
+.button{
+
+  text-align:left;
+  padding-left:2px;
+}
+
+.checkbox {
+  border:0px;
+}
+
+.field{
+  float:left;
+  margin-right:5px;
+}
+/* eh 3-6-08 */
+.mail_field{
+ /*padding:5px;
+  padding-left:125px;*/ 
+  /*margin:3px 0 1px 0;*/
+  margin:0;
+  height:2.2em;
+    /*height:2.9em;eh 27-5-2009 */
+}
+
+.submit{
+  margin-top:0px;
+  display:block;
+  float:none;
+  clear:both;
+}
+
+
+
+		/* 2radio fieldsets nebeneinander ed.13-10-2008 */
+#mailform div.csc-mailform-field, 
+body#uid884 form#mailform1 div.contact div.csc-mailform-field {width:48%; padding:5px; float:left;}
+
+#mailform span.csc-mailform-radio {    
+    display:block;
+    width:100%;
+    font-size:9pt;
+}
+
+fieldset {
+    border:1px solid #dedede; 
+    margin:0; 
+    padding:0.1em;}
+
+		/* legend unsichtbar machen, da Text sonst zweimal escheint  */
+#mailform legend {display:none;}
+
+/* auch auf die Haelfte reduzieren, da sonst die naechste Box nach unten gedrueckt wird */
+#mailform label.mailformtest_radio {
+    display:block; width:50%;
+}
+
+		/* ---------- radio-buttons ---------- */
+		/* Label fuer das radio-button fieldset */
+#mailform div.contact div.csc-mailform-field label{
+    display:block;
+    float:none;
+    height:1.5em;
+    font-size:0.8em;  
+    padding:1em 0em 0em 0em;
+}
+		/* radio-button und beschriftung ed.13-10-2008 */
+#mailform div.contact div.csc-mailform-field span.csc-mailform-radio fieldset input.radio,
+form#mailform1 div.contact div span fieldset input.radio,
+form#mailform1 div.contact div span fieldset input.checkbox {
+    display:block; 
+    width:1em; height:1em;
+    float:left;
+    padding:0em; margin:0em;
+    border:1px solid silver; 
+    background-color:#f7f7f7;
+}
+#mailform div.contact div.csc-mailform-field span.csc-mailform-radio fieldset label,
+body#uid884 form#mailform1 div.contact div span fieldset label {
+    display:block;
+    height:2em;
+    float:none;
+    font-size:1em;  
+    padding:0em 0em 0em 2em;
+    text-align:left;
+}
+body#uid884 label,
+body#uid884 form#mailform1 div.contact div.csc-mailform-field span.csc-mailform-radio fieldset label {font-size:11px;}
+/* ******* newsletter ********** */
+
+/* eh 12-4-2009   */
+select {font-size:11px;}
+
+/* eh 16-7-2010 label-Verschwindibus */
+div.label {width:120px;text-align:left;}
+
+/***************************Attribute******************************************/
+
+#content a:link,
+#content a:visited,
+#content a:active,
+#content a:focus {
+  /*color:rgb(0, 0, 238);*/
+  /*color:#003366;
+  font-weight:bold;
+  text-decoration:none;*/
+  text-decoration:none;
+}
+
+#content a:hover {
+  color:#006699;
+  text-decoration:underline;
+}
+
+#content a:visited {
+  font-weight:normal;
+  color:#006699;
+  text-decoration:none;
+}
+
+p{
+  font-size:1em;
+}
+
+h2{
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.suche{
+  width:150px;
+  height:35px;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top:13px;
+  float:left;
+}
+
+.suche[class]{
+  margin-left:25px;
+}
+
+/* *********************************Menus************************************** */
+/* *******************************Sitemap************************************ */
+div.sitemap{
+  margin-left:15px;
+  font-size:1em;
+}
+
+a.sitemap1, a.sitemap2, a.sitemap3, a.sitemap4{
+  text-decoration:none;
+  color:#000000;
+  font-size:1em;
+  line-height:1.1em;
+}
+
+a.sitemap1{
+  font-weight:bold;
+}
+
+.sitemap1{
+  /*padding-left:12px;*/
+  padding:0; 
+  margin:0;
+}
+
+.sitemap2{
+  /*padding-left:20px;*/
+}
+
+.sitemap3{
+  /*padding-left:40px;*/
+  font-size:8pt;
+  padding:0; 
+  margin:0;
+}
+
+.sitemap4{
+  /*padding-left:60px;*/
+  font-size:8pt;
+  padding:0; 
+  margin:0;
+}
+
+.sitemap1 ul, .sitemap2 ul, .sitemap3 ul, .sitemap4 ul {padding-left:2em;}
+
+.sitemap3, .sitemap4, div.sitemap ul li ul li ul li ul li ul li{
+    font-size:8.5pt;
+    line-height:1.4em;
+    padding-bottom:0.3em;
+}
+
+
+/****************************Index Search**************************************/
+.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-button {
+  width:100px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-sword {
+  width:150px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-whatis P .tx-indexedsearch-sw {
+  font-weight:bold;
+  font-style:italic;
+}
+
+.tx-indexedsearch .tx-indexedsearch-whatis {
+  margin-top:10px;
+  margin-bottom:5px;
+  background-color:#fffac7;
+}
+
+.tx-indexedsearch P.tx-indexedsearch-noresults {
+  text-align:center;
+  font-weight:bold;
+}
+
+.tx-indexedsearch {
+  font-size:0.9em;
+  line-height:1.7em;
+}
+
+.tx-indexedsearch form {
+  line-height:2.2em;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title {
+  background-color:#fffac7;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P {
+  font-weight:bold;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P.tx-indexedsearch-percent {
+  font-weight:normal;
+}
+
+TD.tx-indexedsearch-percent {
+  border-top:1px solid #fbf6c0;
+  border-right:1px solid #fbf6c0;
+  border-bottom:1px solid #fbf6c0;
+}
+TD.tx-indexedsearch-icon {
+  border-top:1px solid #fbf6c0;
+  border-left:1px solid #fbf6c0;
+  border-bottom:1px solid #fbf6c0;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P {
+  font-style:italic;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P .tx-indexedsearch-redMarkup {
+  color:red;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-info {
+  /*background:#eeeeff;*/
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead {
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead H2 {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TABLE {
+  background:#ff4040;
+  padding-left:5px;
+}
+
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TD {
+  vertical-align:baseline;
+}
+
+.tx-indexedsearch-searchbox {  
+  /*font-size:0.8em;*/
+  line-height:1.8em;
+}
+
+tx-indexedsearch-browsebox, tx-indexedsearch-browsebox p { 
+  /*font-size:0.8em;
+  line-height:1.9em;*/
+  }
+
+/* ************************** rightColumn ********************************/
+
+
+div#rightColumn {
+    width:24%;	
+    margin:0 0% 1% 76%;
+    font-size:1em;
+    line-height:1.2em;
+    padding-bottom:5%;
+}
+
+#rightColumn .content {
+    color:#000000;
+    font-size:0.8em;
+    text-align:left; 
+}
+
+#rightColumn .content h1 {
+    height:1.8em; 
+    /*background-color:#ffffff;*/
+    font-size:1em;
+    font-weight:bold;
+    color:#000000;
+    margin-bottom:-0.7em;
+} 
+/* eh 9-6-2009 2  */
+#rightColumn .content h4 {
+    font-size:9pt;
+    /*font-size:1.8em;*/
+    line-height:11pt;
+    color:#009173;
+    margin-bottom:4pt;
+    margin-top:0em;
+}
+
+#rightColumn li {
+    font-weight:normal;
+    text-align:left;
+    color:#000000;
+    /*list-style:none;*/
+}
+
+#rightColumn a,
+#rightColumn ul li a,
+#rightColumn .content .content .columns ul.csc-menu li a,
+#rightColumn .content .columns .content ul.csc-menu li a,
+#rightColumn .content .columns .content ul li a,
+#rightColumn .content ul.csc-menu li a, 
+#rightColumn .content ul.csc-menu-1 li a {
+    color:#003366;
+    text-decoration:none;
+} 
+
+#rightColumn p.bodytext {
+    margin-top:5pt;
+   /* font-size:9pt; */
+    font-size:11px;
+    line-height:14px; 
+}
+
+#rightColumn .content .columns .content ul,
+#rightColumn .content .content ul,
+#rightColumn .content ul.csc-menu, 
+#rightColumn .content ul.csc-menu-1 {
+    margin-top:0.3em;
+    padding-left:1.2em;
+}
+
+/* eh 2010-08-19  margin:0 0 2pt 0; */
+#rightColumn .content .content .columns ul.csc-menu li,
+#rightColumn .content .columns .content ul.csc-menu li,
+#rightColumn .content .columns .content ul li,
+#rightColumn .content .content ul li,
+#rightColumn .content ul.csc-menu li, 
+#rightColumn .content ul.csc-menu-1 li
+ {
+    list-style-type:circle;
+    margin:0 0 2pt 3pt;
+    padding:0 0 1pt 0;
+    font-size:11px;
+    line-height:12px; 
+}
+
+
+/* ************************** sublinks ********************************/
+#rightColumn .sublinks li, 
+#rightColumn .sublinks a, 
+#rightColumn .sublinks .content h4  {
+    font-size:9pt;       
+    list-style-type:circle;
+    padding:0 0 0.4em 0;
+}
+/* ************************** /sublinks ********************************/
+
+/* ********** insert records in rechterspalte ********** */
+/*
+#rightColumn .content h4,
+#rightColumn .content .columns .content h4,
+#rightColumn .content .content h4 {
+    font-weight:bold;
+    font-size:9pt;
+    padding-bottom:0.3em
+}
+
+
+#rightColumn .content .columns .content p.bodytext a, 
+#rightColumn .content .content .bodytext a,
+#rightColumn .content .content .bodytext,
+#rightColumn .content .content ul li, 
+#rightColumn .content .content ul li a {
+    font-size:9pt;
+}
+*/
+/* ************************** /rightColumn ********************************/
+
+/* ************************** tables ********************************/
+div.zartgrau-nl table.contenttable,
+div.zartgrau table.contenttable,
+table.zartgrau {
+    border:1px solid #ededed;
+    empty-cells:hide;
+    border-collapse:collapse;/**/
+    width:100%;
+}
+
+div.zartgrau-nl table.contenttable tr td,
+div.zartgrau table.contenttable tr, td, 
+table.zartgrau tr, td {
+    padding:0.1em 0.3em;
+    vertical-align:top;
+    text-align:left;
+}
+/*
+div.zartgrau table.zartgrau .tr-last td,
+table.zartgrau .tr-last td {
+    border-bottom:1px solid #dedede;    
+    border-left:1px solid #dedede;
+}  
+*/
+div.zartgrau-nl table.contenttable tr.tr-even td,
+div.zartgrau table.contenttable tr.tr-even td,
+table.zartgrau tr.tr-even td {
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ffffff;
+}
+
+div.zartgrau-nl table.contenttable  tr.tr-odd td,
+div.zartgrau table.contenttable tr.tr-odd td, 
+table.zartgrau tr.tr-odd td {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+
+div.zartgrau-nl table.contenttable tr.tr-odd td.td-0,
+div.zartgrau table.contenttable tr.tr-odd td.td-0, 
+table.zartgrau tr.tr-odd td.td-0 {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+
+div.zartgrau table.contenttable tr.tr-even td.td-0, 
+table.zartgrau tr.tr-even td.td-0 {
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+/* newsletter layout 3, header left, farbe abwechseln: */
+div.zartgrau-nl table.contenttable tr.tr-even th,
+div.zartgrau-nl table.contenttable tr.tr-even th  {  
+    background-color:#f3f3f3;  
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;}
+
+div.zartgrau-nl table.contenttable  tr.tr-odd th, 
+div.zartgrau-nl table.contenttable tr.tr-odd th {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+/* ---------------------------------------  */
+
+
+div.zartgrau table.contenttable th, 
+table.zartgrau th {
+    height:1.9em;
+    padding:0.2em 0.4em;
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;       
+    border-left:1px solid #ffffff;
+    font-weight:bold;
+    text-align:left;
+    color:#000000;
+}
+
+div.zartgrau table.contenttable th.td-0, 
+table.zartgrau th.td-0 {      
+    border-left:1px solid #ededed;
+}
+
+div.zartgrau table.contenttable caption, 
+table.zartgrau caption {
+    caption-side:bottom;    
+    padding:0.2em 0em 1em 0em;
+    font-size:0.9em;
+    text-align:left;
+    color:#777777;
+}
+
+/* ************ table newsletter ************ */
+table.zartgrau-nl {
+    border:1px solid #ededed;
+    empty-cells:hide;
+    border-collapse:collapse;/**/
+}
+
+table.zartgrau-nl tr, td {
+    padding:0.1em 0.3em;
+    vertical-align:top;
+    text-align:left;
+}
+/*
+table.zartgrau-nl .tr-last td {
+    border-bottom:1px solid #dedede;    
+    border-left:1px solid #dedede;
+}  
+*/
+table.zartgrau-nl tr.tr-even td {
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ffffff;
+}
+
+table.zartgrau-nl tr.tr-odd td {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+
+table.zartgrau-nl tr.tr-odd td.td-0 {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+
+table.zartgrau-nl tr.tr-even td.td-0 {
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+}
+
+table.zartgrau-nl tr.tr-odd th.td-0 {
+    background-color:#ffffff;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+    font-weight:bold;
+}
+
+table.zartgrau-nl tr.tr-even th.td-0 {
+    background-color:#f3f3f3;    
+    border-bottom:1px solid #ededed;        
+    border-left:1px solid #ededed;
+    font-weight:bold;
+}
+
+/* ************ zartgelb ************  */
+div.zartgelb table.contenttable, table.zartgelb {
+    margin:0.8em 0;
+    background-color:#FFFCDB;
+    border:1px solid #FFFCDB;
+    empty-cells:hide;
+    border-collapse:collapse;/**/
+}
+
+div.zartgelb table.contenttable tr, td, 
+table.zartgelb tr, td {
+    padding:0.1em 0.3em;
+    vertical-align:top;
+    text-align:left;
+}
+/*
+div.zartgelb table.contenttable tr.tr-last td.td-0, 
+table.zartgelb tr.tr-last td.td-0 {
+    border-bottom:1px solid #FFFCDB;
+    border-left:1px solid #FFFCDB;
+}  
+*/
+div.zartgelb table.contenttable tr.tr-even td, 
+table.zartgelb tr.tr-even td {
+    background-color:#FFFCDB;    
+    border-bottom:1px solid #FFFCDB;        
+    border-left:1px solid #ffffff;
+}
+
+div.zartgelb table.contenttable tr.tr-odd td, 
+table.zartgelb tr.tr-odd td {
+    background-color:#ffffff;    
+    border-bottom:1px solid #FFFCDB;        
+    border-left:1px solid #FFFCDB;
+}
+
+div.zartgelb table.contenttable tr.tr-odd td.td-0, 
+table.zartgelb tr.tr-odd td.td-0 {
+    background-color:#ffffff;    
+    border-bottom:1px solid #FFFCDB;        
+    border-left:1px solid #FFFCDB;
+}
+
+div.zartgelb table.contenttable tr.tr-even td.td-0, 
+table.zartgelb tr.tr-even td.td-0 {
+    background-color:#FFFCDB;    
+    border-bottom:1px solid #FFFCDB;        
+    border-left:1px solid #FFFCDB;
+}
+
+div.zartgelb table.contenttable th , 
+table.zartgelb th {
+    height:1.9em;
+    padding:0.2em 0.4em;
+    background-color:#FFFBD3;    
+    border-bottom:1px solid #FFFCDB;       
+    border-left:1px solid #ffffff;
+    font-weight:bold;
+    text-align:left;
+    color:#000000;
+}
+
+div.zartgelb table.contenttable th.td-0, 
+table.zartgelb th.td-0 {      
+    border-left:1px solid #FFFCDB;
+}
+
+/* tabellen unterschrift*/
+div.zartgelb table.contenttable caption, 
+table.zartgelb caption {
+    caption-side:bottom; 
+    padding-bottom:2em;
+    font-size:0.9em;
+    text-align:left;
+    color:#777777;
+}
+/* ************ Tabelle class form ************ */
+
+table.form {
+     background-color:#ffffff;
+     /*border-collapse:separate;*/
+}
+
+table.form tr {
+    background-color:#f7f7f7;
+    border-bottom:1px solid #dedede;
+}
+/* ************ /Tabelle class form ************ */
+
+/* ************ gruenerkopf ************ */
+table.gruenerkopf {
+    border:1px solid #009173;
+    empty-cells:hide;
+    border-collapse:collapse;
+}
+
+table.gruenerkopf tr, td {
+    padding:0.1em 0.3em;
+    vertical-align:top;
+    text-align:left;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+table.gruenerkopf th {
+    height:1.9em;
+    padding:0.2em 0.4em;
+    background-color:#009173;
+    font-weight:bold;
+    text-align:left;
+    color:#ffffff;
+}
+/* ************ /gruenerkopf ************ */
+
+
+/*  .csc-frame-frame1 aus dem rte  */
+.csc-frame-frame1 {
+    padding:0.2em 1.5em;
+    width:37em; 
+    font-size:0.8em; 
+    line-height:1.4em; 
+    color:#a9a9a9;
+    text-align:left;
+}
+
+.csc-frame-frame2 {
+    font-size:0.8em;
+    line-height:1.5em;    
+    font-family:Verdana,Geneva,Helvetica,Arial,"Arial Unicode MS",sans-serif;
+}
+/*  text-indent:25px; ausgeblendet - eh 2011-3-31 */
+.csc-subheader {
+    font-style:italic;
+    /* text-indent:25px; */
+    font-size:0.8em;
+}
+
+p.code {
+    font-family:monospace;
+    font-size:9pt;
+    color:#444444;
+}
+
+span.code {
+    font-family:monospace;
+    font-size:9pt;
+    color:#444444;
+}
+
+p.note {
+    width:35em;
+    font-size:0.8em;
+    line-height:1.2em;
+    color:#a9a9a9;    
+}
+
+
+
+p.grey_back, .grey_back {
+    background-color:#f7f7f7;
+    border:1px solid #dedede;
+    padding:3px;
+}
+
+
+p.white_back, .white_back {
+    background-color:#ffffff;
+    border:1px solid #ededed;
+    padding:3px;
+}
+
+p.even {background-color:#F3F3F3;
+    border-bottom:1px solid #EDEDED;
+    border-top:1px solid #EDEDED;}
+    
+p.center, .center {text-align:center;}
+
+span.gruen {color:#009173;}
+span.blau {color:#003366;}
+span.rot {color:red;}
+#content .member-rot, 
+#content a.member-rot, 
+span a.member-rot,
+span.member-rot, 
+div#rightColumn ul li a.member-rot,
+span.member-rot a {color:#b22222; text-decoration:none;}
+span.weiss {color:#ffffff;}
+span.gray, .gray {color:#a9a9a9;}
+b.gruen {color:#009173;}
+b.blau {color:#003366;}
+b.rot {color:red;}
+b.weiss {color:silver;}
+.classcan,span.classcan {color:#009966;}
+.classcanopen,span.classcanopen {color:#2D728B;}
+.classj1939,span.classj1939 {color:#d75020;}
+
+/* ************************** seminars ********************************/
+#content .content .tx-seminars-pi1-browsebox p,
+p.csc-linkToTop, 
+.news-list-morelink, 
+.news-single-timedata, 
+.news-single-author, 
+.news-single-backlink {font-size:0.9em;}
+
+p.csc-linkToTop a, 
+.news-list-morelink a, 
+.news-single-timedata, 
+.news-single-author, 
+.news-single-backlink a {text-decoration:none;font-size:90%;}
+
+#tx-seminars-pi1 dl {border:0em; margin:0em;}
+
+	/* einzelansicht seminar und registrierung oneTimeAccount */
+
+.tx-seminars-pi1 p {
+    font-size:0.9em; 
+    margin:0.3em 0em 0.5em;
+}
+/*  eh 2009-12-3 font-size:0.9em;=>font-size:0.8em;  */
+#content .content .tx-seminars-pi1 dl,
+#content .content .tx-onetimeaccount-pi1 dl {
+    border:0em; 
+    margin:0em; 
+    padding:0em; 
+    font-size:0.8em;
+}
+	
+	/* Registrierung   */
+
+#tx_onetimeaccount_pi1_form fieldset legend, 
+#tx-seminars-pi1-registration-form fieldset legend {
+    font-size:0.9em;
+    font-weight:bold;
+    padding-bottom:0.6em;
+}
+
+#content .content .tx-seminars-pi1 dd {
+    border:0em; 
+    margin:0em; 
+    padding:0em;
+    font-family:verdana, sans-serif; 
+    text-align:left; 
+    font-weight:normal; 
+    font-size:0.9em;
+} 
+
+#content .content .tx-seminars-pi1 h3 {
+    font-size:1em; 
+    color:#000; 
+    font-family:serif; 
+    margin:0.7em 0em 0.3em;
+}
+#content .content .tx-seminars-pi1 hr {
+    background-color:#dedede; 
+    color:#dedede; 
+    border:#dedede;
+    height:1px;
+}
+
+/*    form    */
+#tx-seminars-pi1-registration-form fieldset {
+    padding:0.5em; 
+    margin:1em 0em 1em;
+}
+#tx-seminars-pi1-registration-form fieldset #tx-seminars-pi1-registration-payment {
+    height:18em;
+    position:relative;
+}
+#tx-seminars-pi1-registration-form dt {
+    display:block; 
+    clear:both; 
+    float:left; 
+    margin:0 0.5em 2em 0; 
+    width:10.5em;
+}
+
+
+/*    radio buttons    */
+#tx-seminars-pi1-registration-payment .tx-seminars-pi1-registration-method-of-payment dd.tx-seminars-pi1-checkbox {
+    margin:0.5em 0 0.7em 12em;
+}
+.tx-seminars-pi1-checkbox input {float:left; margin:0em; padding:0em;}
+.tx-seminars-pi1-checkbox label {margin:0.3em 0em 0.3em 2em;}
+
+
+#tx-seminars-pi1-registration-payment #tx-seminars-pi1-registration-banking-data {
+    margin:0pt; 
+    padding:0pt; 
+    position:relative; 
+    left:0pt; 
+    top:0pt; 
+    width:100%;
+}
+
+
+#content .content .tx-seminars-pi1 .tx-seminars-pi1-listrow table .listrow-odd td,
+#content .content table .listrow-odd td  {background-color:#f3f3f3;}
+#content .content table tr th {background-color:#dedede;}
+
+/*	inputs und selects	*/
+
+#tx_seminars_pi1_registration_editor #tx-seminars-pi1-registration-form fieldset dl dd.tx-seminars-pi1-registration-country select, 
+#tx_seminars_pi1_registration_editor #tx-seminars-pi1-registration-form fieldset dl dd select,
+#tx_onetimeaccount_pi1_form select
+ {
+    margin:0.2em 0em 0.6em 0em; 
+    border:1px solid silver; 
+    background-color:#f7f7f7; 
+    font-family:verdana,helvetica,Arial,"Arial Unicode MS",sans-serif; 
+    font-size:9pt; 
+    color:#333333; 
+    font-weight:normal;
+    outline-style:none;
+} 
+
+
+
+#content .content .tx-onetimeaccount-pi1 #tx_onetimeaccount_pi1_form fieldset dl dd .tx-onetimeaccount-pi1-name input {
+width:20em;
+}
+.tx-seminars-pi1 input, 
+.tx-seminars-pi1 textarea, 
+.tx-seminars-pi1 select,
+.tx-onetimeaccount-pi1 input, 
+.tx-onetimeaccount-pi1 textarea, 
+.tx-onetimeaccount-pi1-country select, 
+.tx-onetimeaccount-pi1-status select {
+    font-size:9pt; 
+}
+
+.tx-seminars-pi1-submit, 
+#mailformformtype_mail,
+.tx-onetimeaccount-pi1-submit input,
+.tx-seminars-pi1-submit input {
+    padding:0.3em 0.5em;
+    color:#555555; 
+    font-weight:bold; 
+    font-size:9pt;
+}
+
+/* ************************** tt_news ********************************/
+	/*ueberschrift und link*/
+.news-latest-container .news-latest-item h3, 
+#content .content .news-list-container .news-list-item h3 { margin:0.5em 0em 0.3em;}
+
+.news-latest-container .news-latest-item h3,
+.news-latest-container .news-latest-item h3 a,
+#content .content .news-latest-container .news-latest-item h3 a:visited,
+.news-list-container .news-list-item h3 a,
+.news-list-container .news-list-item h3 a:visited {font-weight:bold; text-decoration:none;}
+
+.news-latest-container .news-latest-item  p.bodytext,
+.news-list-container .news-list-item p.bodytext {margin:0.5em 0em 0.1em;}
+.news-latest-date, .news-list-date {font-size:0.8em; color:#a9a9a9;padding-left:1.2em;}
+
+.news-latest-gotoarchive {font-size:0.8em;}
+
+hr.clearer {background-color:#dedede; color:#dedede; border:#dedede;
+height:1px;}
+
+	/* single ansicht  */
+#content .content .news-single-item .news-single-timedata,
+.news-latest-category { font-size:0.8em; }
+
+#content .content div.news-single-item h3 {
+font-family:sans-serif; 
+    font-weight:normal; 
+    color:#000000; 
+    font-size:0.9em;
+}
+p.news-single-imgcaption { 
+    margin:0em 0em 0.2em;
+    font-family:verdana,helvetica,Arial,"Arial Unicode MS",sans-serif; 
+    font-size:0.8em;
+    font-style:italic; 
+    color:#a9a9a9; 
+    font-weight:normal;
+}
+ /* eh 12-3-2009; aus 11px mach 0.8em 20-7-2009  */   
+#content .content .news-amenu-container ul {margin:0em;padding-bottom:0.5em;}
+#content .content dl.news-single-files,
+#content .content dl.news-single-links {border:0em; margin:0em 0em 0.4em 0em; padding:0em;}
+#content .content dl.news-single-files dt,
+#content .content dl.news-single-links dt { font-size:0.8em; display:inline;}
+#content .content dl.news-single-files dd,
+#content .content dl.news-single-links dd,
+#content .content dl.news-single-links dd p { 
+    margin:0pt; padding:0pt; display:inline;  font-size:0.8em; text-align:left;}
+.news-single-files a {font-family:sans-serif; font-weight:normal;}
+
+	/*  seiten blaettern   */
+.tx-ttnews-browsebox p, 
+.news-list-category, 
+td.tx-ttnews-browsebox-SCell p,
+div.tx-ttnews-browsebox table tbody tr td.tx-ttnews-browsebox-SCell p,
+div.tx-ttnews-browsebox table tbody tr td p {font-size:11px;margin:0;}
+
+.tx-ttnews-browsebox-strong {font-weight:bold;}
+
+.tx-ttnews-browsebox table {margin:0em;padding:0em;line-height:0.9em; text-align:center;} 
+
+.tx-ttnews-browsebox table td {margin:0em; text-align:center;} 
+
+	/*	archive		*/
+.news-amenu-container ul li.news-amenu-item-year {
+    font-weight:bold; 
+    margin-left:0em;
+    list-style-type:disc;
+}
+.news-amenu-container ul li {
+    font-weight:normal; 
+    margin-left:1em;
+    list-style-type:circle;
+}
+.news-list-item div.subheader { font-size:0.8em; }
+#content .content .news-list-container .news-list-item .subheader .bodytext {
+    display:inline; 
+    font-style:italic; 
+    font-size:1em;
+}
+.news-list-item p.subheader { margin:0px; }
+
+/* eh 2011-2-25 */
+dl.news-single-related, dl.news-single-related dd {margin:0;}
+#content .content .news-single-item dl dd {margin:0;font-family:san-serif;text-align:left;font-size:0.8em;}
+
+/* ************************** php include - downloads ********************************/
+.tx-lumophpinclude-pi1 #mailform .contact .mail_field input { font-size:0.9em; }
+
+
+#content .content div.tx-lumophpinclude-pi1 div#content { padding-bottom:1em; }
+.tx-lumophpinclude-pi1 #content #files .filesList div .fileInfo { margin:0.5em 0em; }
+
+div.listedFile {
+  clear:left;
+}
+
+div.listedFile div.fileIcon {
+  float:left;
+  width:100px;
+  text-align:center;
+}
+
+div.listedFile div.fileInfo {
+  /*margin-left:115px;
+  padding-left:200px;*/
+  padding-left:100px;
+}
+
+div.listedFile div.fileName, div.listedFile div.fileDescription {
+  font-size:0.8em;
+}
+
+div.listedFile div.fileName {
+  font-weight:bold;
+}
+
+.filesList .even {background-color:#F3F3F3; border-bottom:1px solid #EDEDED; border-top:1px solid #EDEDED;}
+
+/* ************************** body#uids ********************************/
+
+/* mediadata seite, keine Raender um die Bilder + Applic.domains */
+body#uid394 #content .content dl,
+body#uid39 #content .content dl,
+body#uid39 #content .content dl,
+body#uid798 #content .content dl {padding:0; margin:0; border:0;}
+
+body#uid21 #page #pageBody #pageBodyContainer #pageBodyLeft #content .content .content,
+body#uid157 #page #pageBody #pageBodyContainer #pageBodyLeft #content .content .content {
+    position:absolute;
+    margin:0em; padding:0.2em 2em 0.5em 0em;
+    width:90%;
+    background-color:#ffffff;
+    text-align:justify;
+    float:none;    
+}
+body#uid748 div.label {width:30%;}
+
+body#uid748 #content .content dl, body#uid750 #content .content dl {
+    border:0px;
+    margin:0px;
+    padding:10px;
+}
+/* submit einheitlich formatieren, und submit-verschwindibus auf download seite beseitigen 2009-12-1 eh */
+body#uid440 div#files {padding-bottom:1.5em;}
+body#uid440 input#cia-specification, 
+body#uid915 input#cia-specification-ecxerpts {border:1px solid #9a9a9a; 
+    font-size:1.1em; color:#ffffff; padding:0.5em; background-color:#b8b8b8;}
+
+/*  iCC anmeldeformular	*/    
+body#uid386 input, textarea {
+    margin:0.5em 0 0 0; 
+    border:1px solid silver; 
+    background-color:#f7f7f7; 
+    font-family:verdana,helvetica,Arial,"Arial Unicode MS",sans-serif; 
+    font-size:0.9em; 
+    color:#333333; 
+    font-weight:normal;
+}
+
+body#uid386 mail_field {
+    height:3.4em;
+    margin:0pt;
+}
+
+body#uid755 table, body#uid755 #content .content table tr td {width:500px;font-size:11px;}
+body#uid1188 table, body#uid1188 #content .content table tr td {width:500px;font-size:11px;}
+
+body#uid773 .td-0 { width:80px;}
+body#uid773 .td-1 { width:210px;}
+body#uid773 .td-last { width:210px; }
+
+/*	CANopen Lift / CleANopen companies etc	*/
+body#uid781 #content .content dl,
+body#uid789 #content .content dl,
+body#uid794 #content .content dl,
+body#uid828 #content .content dl {
+    background:#FFFFFF;
+    border:1px solid #dedede;
+    margin:0em 0em 0.5em 1em;
+    padding:0px;
+}
+
+body#uid784  #content .content dl,
+body#uid791  #content .content dl  {
+    background:#FFFFFF;
+    border:1px solid #ffffff;
+    margin:0em 0em 0.5em 1em;
+    padding:0px;
+}
+
+#rightColumn .content .csc-textpic-border div.csc-textpic-imagewrap .csc-textpic-image img {
+    border:1px solid #009173;
+    padding:0px;
+}
+
+/*  literature order 23-9-2009, 2010-7-29  */
+body#uid1049 div.content form table tbody tr td table tbody tr,
+body#uid481 div.content form table tbody tr td table tbody tr{font-size:1.1em;}
+
+body#uid1049 div.content form table tbody tr {font-size:1em;}
+body#uid1049 div.content div.tx-lumophpinclude-pi1 form table tbody tr td div {font-size:0.8em;}
+/* /literature order 23-9-2009  */
+
+/*  questionare eh 17-11-2008 */
+body#uid891 .label {width: 20%;}
+body#uid891 fieldset {
+border:0;
+margin:0pt;
+padding:0.1em;
+}
+body#uid891 fieldset #mailform legend, body#uid891 #mailform legend {display:none;}
+body#uid891 p, body#uid891 label, body#uid891 em, body#uid891 #mailform div.contact div.csc-mailform-field label {font-size:11px;}
+/*  END questionare eh 17-11-2008 */
+
+/*  members info forms eh 26-11-2008  */
+body#uid905 table,body#uid906 table,body#uid907 table,body#uid913 table,body#uid914 table {background-color:#ffffff;} 
+body#uid905 td,body#uid906 td,body#uid907 td,body#uid913 td,body#uid914 td {background-color:#f7f7f7;vertical-align:top;}
+body#uid905 th,body#uid906 th,body#uid907 th,body#uid913 th,body#uid914 th {height: 40px; text-align:left; vertical-align:middle;background-color:#efefef;}
+/*  END members info forms eh 26-11-2008  */
+body#uid1023 #content .content dl {padding:0px;} /*  eh 22-7-2009  */
+
+    /* CAN Newsletter questionnaire id1378 */
+html body#uid1378 div#page div#pageBody div#pageBodyContainer div#pageBodyLeft div#content div.content form#mailform div.contact div.label label  {font-size:12px;}
+ 
+    /* members list eh 2009-9-29 2009-9-30  */
+
+body#uid72 a.memberInfo, body#uid622 a.memberInfo, body#uid623 a.memberInfo {color:#006330;font-weight:bold;}
+body#uid72 div.tx-lumophpinclude-pi1 #content table.contenttable-0 {width:500px;table-layout:fixed;word-wrap:break-word;}
+body#uid72 div.tx-lumophpinclude-pi1 #content table.contenttable-0 td:first-child{width:70%;}
+
+    /* CSC02  */
+body#uid1205 .label {width:7.5em;}
+
+body#uid1272 ul {padding-left:14px;}
+body#uid1272 li {padding-left:0px; list-style-position:outside; font-size:1.1em;}
+
+/* eh ueberschrift auf root ausblenden 2010-9-24 */
+/* body#uid0 h1, body#uid1 h1, body#uid10 h1 {visibility:hidden;} */
+body#uid0 h1, body#uid1 h1, body#uid10 h1 {display:none;}
+
+/* can transceiver queationnaire */
+body#uid1404 div.label { text-align: left;  width: 40%;
+
+/* ************************** profileOrder ********************************/
+.profileOrder .label {display:none;}
+.profileOrder .comment, .profileOrder .mail_field  {display:inline;}
+#content .content #mailform .profileOrder .mail_field input {
+    display:inline; border:0px; background-color:#ffffff;
+    margin-bottom:0px; color:#003366; text-decoration:underline; 
+    font-size:0.9em; font-weight:normal; font-family:sans-serif; cursor:pointer; outline-style:none;
+}
+
+/* ************ CAN Newsletter article order eh 26-5-2008 ************ */
+.subscribe {margin-top:-15px;}
+/* ******** Rahmen um Bilder eh 10-3-2009 *************** */
+div.csc-textpic-border div.csc-textpic-imagewrap .csc-textpic-image img {
+   border:1px solid #009173;padding:0px;}
+   
+   /* members list eh 2009-9-29  */
+a.memberInfo {color:#339966;}
+
+/*  eh 2010-08-19 */
+ul, menu, dir {-moz-padding-start:20px;}

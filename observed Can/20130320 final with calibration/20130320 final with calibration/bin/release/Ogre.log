@@ -1,0 +1,648 @@
+10:57:51: Creating resource group General
+10:57:51: Creating resource group Internal
+10:57:51: Creating resource group Autodetect
+10:57:51: SceneManagerFactory for type 'DefaultSceneManager' registered.
+10:57:51: Registering ResourceManager for type Material
+10:57:51: Registering ResourceManager for type Mesh
+10:57:51: Registering ResourceManager for type Skeleton
+10:57:51: MovableObjectFactory for type 'ParticleSystem' registered.
+10:57:51: OverlayElementFactory for type Panel registered.
+10:57:51: OverlayElementFactory for type BorderPanel registered.
+10:57:51: OverlayElementFactory for type TextArea registered.
+10:57:51: Registering ResourceManager for type Font
+10:57:51: ArchiveFactory for archive type FileSystem registered.
+10:57:51: ArchiveFactory for archive type Zip registered.
+10:57:51: DDS codec registering
+10:57:51: FreeImage version: 3.13.1
+10:57:51: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+10:57:51: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+10:57:51: Registering ResourceManager for type HighLevelGpuProgram
+10:57:51: Registering ResourceManager for type Compositor
+10:57:51: MovableObjectFactory for type 'Entity' registered.
+10:57:51: MovableObjectFactory for type 'Light' registered.
+10:57:51: MovableObjectFactory for type 'BillboardSet' registered.
+10:57:51: MovableObjectFactory for type 'ManualObject' registered.
+10:57:51: MovableObjectFactory for type 'BillboardChain' registered.
+10:57:51: MovableObjectFactory for type 'RibbonTrail' registered.
+10:57:51: Loading library .\RenderSystem_Direct3D9
+10:57:51: Installing plugin: D3D9 RenderSystem
+10:57:51: D3D9 : Direct3D9 Rendering Subsystem created.
+10:57:51: D3D9: Driver Detection Starts
+10:57:51: D3D9: Driver Detection Ends
+10:57:51: Plugin successfully installed
+10:57:51: Loading library .\Plugin_OctreeSceneManager
+10:57:51: Installing plugin: Octree & Terrain Scene Manager
+10:57:51: Plugin successfully installed
+10:57:51: Loading library .\Plugin_ParticleFX
+10:57:51: Installing plugin: ParticleFX
+10:57:52: Particle Emitter Type 'Point' registered
+10:57:52: Particle Emitter Type 'Box' registered
+10:57:52: Particle Emitter Type 'Ellipsoid' registered
+10:57:52: Particle Emitter Type 'Cylinder' registered
+10:57:52: Particle Emitter Type 'Ring' registered
+10:57:52: Particle Emitter Type 'HollowEllipsoid' registered
+10:57:52: Particle Affector Type 'LinearForce' registered
+10:57:52: Particle Affector Type 'ColourFader' registered
+10:57:52: Particle Affector Type 'ColourFader2' registered
+10:57:52: Particle Affector Type 'ColourImage' registered
+10:57:52: Particle Affector Type 'ColourInterpolator' registered
+10:57:52: Particle Affector Type 'Scaler' registered
+10:57:52: Particle Affector Type 'Rotator' registered
+10:57:52: Particle Affector Type 'DirectionRandomiser' registered
+10:57:52: Particle Affector Type 'DeflectorPlane' registered
+10:57:52: Plugin successfully installed
+10:57:52: Loading library .\Plugin_BSPSceneManager
+10:57:52: Installing plugin: BSP Scene Manager
+10:57:52: Plugin successfully installed
+10:57:52: Loading library .\Plugin_CgProgramManager
+10:57:52: Installing plugin: Cg Program Manager
+10:57:52: Plugin successfully installed
+10:57:52: Loading library .\Plugin_PCZSceneManager
+10:57:52: Installing plugin: Portal Connected Zone Scene Manager
+10:57:52: PCZone Factory Type 'ZoneType_Default' registered
+10:57:52: Plugin successfully installed
+10:57:52: Loading library .\Plugin_OctreeZone
+10:57:52: Installing plugin: Octree Zone Factory
+10:57:52: Plugin successfully installed
+10:57:52: *-*-* OGRE Initialising
+10:57:52: *-*-* Version 1.7.3 (Cthugha)
+10:57:52: Creating resource group Bootstrap
+10:57:52: Added resource location '../../Media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+10:57:52: Added resource location '../../Media' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../Media/materials/programs' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../Media/materials/textures' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../Media/models' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../media/particle' of type 'FileSystem' to resource group 'General'
+10:57:52: Added resource location '../../Media/packs/SkyBoxes.zip' of type 'Zip' to resource group 'General'
+10:57:52: Creating resource group Hydrax
+10:57:52: Added resource location '../../Media/Hydrax' of type 'FileSystem' to resource group 'Hydrax'
+10:57:52: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+10:57:52: D3D9 : RenderSystem Option: FSAA = 0
+10:57:52: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+10:57:52: D3D9 : RenderSystem Option: Full Screen = Yes
+10:57:52: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce 9400 GT (Microsoft Corporation - WDDM v1.1)
+10:57:52: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+10:57:52: D3D9 : RenderSystem Option: VSync = No
+10:57:52: D3D9 : RenderSystem Option: VSync Interval = 1
+10:57:52: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+10:57:52: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+10:57:52: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-Intel(R) HD Graphics Family
+10:58:01: CPU Identifier & Features
+10:58:01: -------------------------
+10:58:01:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+10:58:01:  *      SSE: yes
+10:58:01:  *     SSE2: yes
+10:58:01:  *     SSE3: yes
+10:58:01:  *      MMX: yes
+10:58:01:  *   MMXEXT: yes
+10:58:01:  *    3DNOW: no
+10:58:01:  * 3DNOWEXT: no
+10:58:01:  *     CMOV: yes
+10:58:01:  *      TSC: yes
+10:58:01:  *      FPU: yes
+10:58:01:  *      PRO: yes
+10:58:01:  *       HT: no
+10:58:01: -------------------------
+10:58:01: D3D9 : Subsystem Initialising
+10:58:01: Registering ResourceManager for type Texture
+10:58:01: Registering ResourceManager for type GpuProgram
+10:58:02: D3D9RenderSystem::_createRenderWindow "OGRE Render Window", 800x600 fullscreen  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+10:58:02: D3D9 : Created D3D9 Rendering Window 'OGRE Render Window' : 800x600, 32bpp
+10:58:04: D3D9: Vertex texture format supported - PF_L8
+10:58:04: D3D9: Vertex texture format supported - PF_L16
+10:58:04: D3D9: Vertex texture format supported - PF_A8
+10:58:04: D3D9: Vertex texture format supported - PF_A4L4
+10:58:04: D3D9: Vertex texture format supported - PF_BYTE_LA
+10:58:04: D3D9: Vertex texture format supported - PF_R5G6B5
+10:58:04: D3D9: Vertex texture format supported - PF_B5G6R5
+10:58:04: D3D9: Vertex texture format supported - PF_A4R4G4B4
+10:58:04: D3D9: Vertex texture format supported - PF_A1R5G5B5
+10:58:04: D3D9: Vertex texture format supported - PF_A8R8G8B8
+10:58:04: D3D9: Vertex texture format supported - PF_B8G8R8A8
+10:58:04: D3D9: Vertex texture format supported - PF_A2R10G10B10
+10:58:04: D3D9: Vertex texture format supported - PF_A2B10G10R10
+10:58:04: D3D9: Vertex texture format supported - PF_DXT1
+10:58:04: D3D9: Vertex texture format supported - PF_DXT2
+10:58:04: D3D9: Vertex texture format supported - PF_DXT3
+10:58:04: D3D9: Vertex texture format supported - PF_DXT4
+10:58:04: D3D9: Vertex texture format supported - PF_DXT5
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+10:58:04: D3D9: Vertex texture format supported - PF_X8R8G8B8
+10:58:04: D3D9: Vertex texture format supported - PF_R8G8B8A8
+10:58:04: D3D9: Vertex texture format supported - PF_DEPTH
+10:58:04: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT16_R
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT32_R
+10:58:04: D3D9: Vertex texture format supported - PF_SHORT_GR
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+10:58:04: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+10:58:04: D3D9: Vertex texture format supported - PF_SHORT_RGB
+10:58:04: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+10:58:04: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+10:58:04: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+10:58:04: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+10:58:04: RenderSystem capabilities
+10:58:05: -------------------------
+10:58:05: RenderSystem Name: Direct3D9 Rendering Subsystem
+10:58:05: GPU Vendor: intel
+10:58:05: Device Name: Monitor-1-Intel(R) HD Graphics Family
+10:58:05: Driver Version: 10.18.10.3412
+10:58:05:  * Fixed function pipeline: yes
+10:58:05:  * Hardware generation of mipmaps: yes
+10:58:05:  * Texture blending: yes
+10:58:05:  * Anisotropic texture filtering: yes
+10:58:05:  * Dot product texture operation: yes
+10:58:05:  * Cube mapping: yes
+10:58:05:  * Hardware stencil buffer: yes
+10:58:05:    - Stencil depth: 8
+10:58:05:    - Two sided stencil support: yes
+10:58:05:    - Wrap stencil values: yes
+10:58:05:  * Hardware vertex / index buffers: yes
+10:58:05:  * Vertex programs: yes
+10:58:05:  * Number of floating-point constants for vertex programs: 256
+10:58:05:  * Number of integer constants for vertex programs: 16
+10:58:05:  * Number of boolean constants for vertex programs: 16
+10:58:05:  * Fragment programs: yes
+10:58:05:  * Number of floating-point constants for fragment programs: 224
+10:58:05:  * Number of integer constants for fragment programs: 16
+10:58:05:  * Number of boolean constants for fragment programs: 16
+10:58:05:  * Geometry programs: no
+10:58:05:  * Number of floating-point constants for geometry programs: 29557
+10:58:05:  * Number of integer constants for geometry programs: 26996
+10:58:05:  * Number of boolean constants for geometry programs: 29539
+10:58:05:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+10:58:05:  * Texture Compression: yes
+10:58:05:    - DXT: yes
+10:58:05:    - VTC: no
+10:58:05:    - PVRTC: no
+10:58:05:  * Scissor Rectangle: yes
+10:58:05:  * Hardware Occlusion Query: yes
+10:58:05:  * User clip planes: yes
+10:58:05:  * VET_UBYTE4 vertex element type: yes
+10:58:05:  * Infinite far plane projection: yes
+10:58:05:  * Hardware render-to-texture: yes
+10:58:05:  * Floating point textures: yes
+10:58:05:  * Non-power-of-two textures: yes
+10:58:05:  * Volume textures: yes
+10:58:05:  * Multiple Render Targets: 4
+10:58:05:    - With different bit depths: yes
+10:58:05:  * Point Sprites: yes
+10:58:05:  * Extended point parameters: yes
+10:58:05:  * Max Point Size: 10
+10:58:05:  * Vertex texture fetch: yes
+10:58:05:  * Number of world matrices: 0
+10:58:05:  * Number of texture units: 8
+10:58:05:  * Stencil buffer depth: 8
+10:58:05:  * Number of vertex blend matrices: 0
+10:58:05:    - Max vertex textures: 4
+10:58:05:    - Vertex textures shared: no
+10:58:05:  * Render to Vertex Buffer : no
+10:58:05:  * DirectX per stage constants: yes
+10:58:05: ***************************************
+10:58:05: *** D3D9 : Subsystem Initialised OK ***
+10:58:05: ***************************************
+10:58:05: DefaultWorkQueue('Root') initialising on thread 0062C598.
+10:58:05: DefaultWorkQueue('Root')::WorkerFunc - thread 00650D00 starting.
+10:58:05: DefaultWorkQueue('Root')::WorkerFunc - thread 00651030 starting.
+10:58:05: DefaultWorkQueue('Root')::WorkerFunc - thread 00650F70 starting.
+10:58:05: DefaultWorkQueue('Root')::WorkerFunc - thread 00650F40 starting.
+10:58:06: Particle Renderer Type 'billboard' registered
+10:58:06: SceneManagerFactory for type 'OctreeSceneManager' registered.
+10:58:06: SceneManagerFactory for type 'TerrainSceneManager' registered.
+10:58:06: SceneManagerFactory for type 'BspSceneManager' registered.
+10:58:06: Registering ResourceManager for type BspLevel
+10:58:06: SceneManagerFactory for type 'PCZSceneManager' registered.
+10:58:06: MovableObjectFactory for type 'PCZLight' registered.
+10:58:06: MovableObjectFactory for type 'Portal' registered.
+10:58:06: MovableObjectFactory for type 'AntiPortal' registered.
+10:58:06: PCZone Factory Type 'ZoneType_Octree' registered
+10:58:06: PCZone Factory Type 'ZoneType_Terrain' registered
+10:58:06: TerrainSceneManager: Registered a new PageSource for type Heightmap
+10:58:06: Parsing scripts for resource group Autodetect
+10:58:06: Finished parsing scripts for resource group Autodetect
+10:58:06: Parsing scripts for resource group Bootstrap
+10:58:06: Parsing script OgreCore.material
+10:58:06: Parsing script OgreProfiler.material
+10:58:06: Parsing script Ogre.fontdef
+10:58:06: Parsing script OgreDebugPanel.overlay
+10:58:06: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+10:58:06: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+10:58:06: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+10:58:06: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+10:58:06: Parsing script OgreLoadingPanel.overlay
+10:58:06: Finished parsing scripts for resource group Bootstrap
+10:58:06: Parsing scripts for resource group General
+10:58:06: Parsing script Examples.program
+10:58:06: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/BasicVertexPrograms/AmbientOneTextureHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:06: High-level program Ogre/BasicVertexPrograms/AmbientOneTextureHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/BasicVertexPrograms/AmbientOneTextureHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:06: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:06: Compiler error: invalid parameters in Examples.program(30): setting of constant failed
+10:58:06: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:06: Compiler error: invalid parameters in Examples.program(31): setting of constant failed
+10:58:06: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/HardwareSkinningTwoWeightsHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Ogre/HardwareSkinningTwoWeightsHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/HardwareSkinningTwoWeightsHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(124): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(125): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(126): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(127): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(128): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(129): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Examples.program(130): setting of constant failed
+10:58:07: Parsing script StdQuad_vp.program
+10:58:07: Parsing script 444 dvora.material
+10:58:07: Parsing script am2.material
+10:58:07: Parsing script ASCII.material
+10:58:07: Parsing script ASMSwizzle.material
+10:58:07: Compiler error: object unsupported by render system in ASMSwizzle.material(1)
+10:58:07: Parsing script Big ship.material
+10:58:07: Parsing script BlackAndWhite.material
+10:58:07: Parsing script Bloom.material
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur0_ps20 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Blur0_ps20 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur0_ps20 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur0_vs11 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Blur0_vs11 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur0_vs11 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur1_ps20 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Blur1_ps20 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur1_ps20 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur1_vs11 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Blur1_vs11 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur1_vs11 in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: Parsing script Bloom2.material
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BlurH_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program BlurH_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BlurH_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur_vs11_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Blur_vs11_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Blur_vs11_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BlurV_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program BlurV_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BlurV_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Bloom2_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program Bloom2_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Bloom2_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Bloom2.material(232): setting of constant failed
+10:58:07: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:07: Compiler error: invalid parameters in Bloom2.material(233): setting of constant failed
+10:58:07: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BrightBloom2_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:07: High-level program BrightBloom2_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader BrightBloom2_ps20_hlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: Parsing script bullet.material
+10:58:08: Parsing script CGSwizzle.material
+10:58:08: Parsing script CompositorDemo.material
+10:58:08: Parsing script Container ship.material
+10:58:08: Parsing script DepthShadowmap.material
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/CasterVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/CasterVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/CasterVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(14): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(15): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/CasterFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/CasterFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/CasterFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/ReceiverVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(45): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(46): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(47): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(48): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(49): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(50): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/ReceiverFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(66): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(67): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(68): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(69): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverFPPCF_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/ReceiverFPPCF_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/ReceiverFPPCF_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(84): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(85): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(86): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/NormalMapReceiverVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverVP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(100): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(101): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(102): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(103): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/NormalMapReceiverFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverFP_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(118): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(119): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(120): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(121): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(122): setting of constant failed
+10:58:08: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverFPPCF_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: High-level program Ogre/DepthShadowmap/NormalMapReceiverFPPCF_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/DepthShadowmap/NormalMapReceiverFPPCF_HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(136): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(137): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(138): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:08: Compiler error: invalid parameters in DepthShadowmap.material(139): setting of constant failed
+10:58:08: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in DepthShadowmap.material(140): setting of constant failed
+10:58:09: Parsing script Dither.material
+10:58:09: Parsing script DOF.material
+10:58:09: Parsing script dovra11.material
+10:58:09: Parsing script Embossed.material
+10:58:09: Parsing script Example-Water.material
+10:58:09: Parsing script Examples-Advanced.material
+10:58:09: Parsing script Examples-DynTex.material
+10:58:09: Parsing script Examples-Water.material
+10:58:09: Parsing script Examples.material
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Parameter called camObjPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1435)
+10:58:09: Compiler error: invalid parameters in Examples.material(837): setting of constant failed
+10:58:09: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/HardwareSkinningTwoWeightsShadowCasterHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: High-level program Ogre/HardwareSkinningTwoWeightsShadowCasterHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/HardwareSkinningTwoWeightsShadowCasterHLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in Examples.material(1624): setting of constant failed
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in Examples.material(1625): setting of constant failed
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in Examples.material(1626): setting of constant failed
+10:58:09: Parsing script facial.material
+10:58:09: Parsing script Glass.material
+10:58:09: Parsing script GLSLSwizzle.material
+10:58:09: Parsing script gunawa.material
+10:58:09: Parsing script Halftone.material
+10:58:09: Parsing script hdr.material
+10:58:09: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale2x2LuminenceHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: High-level program Ogre/Compositor/HDR/downscale2x2LuminenceHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale2x2LuminenceHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in hdr.material(22): setting of constant failed
+10:58:09: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale3x3HLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: High-level program Ogre/Compositor/HDR/downscale3x3HLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale3x3HLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:09: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:09: Compiler error: invalid parameters in hdr.material(74): setting of constant failed
+10:58:09: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale3x3brightpassHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Ogre/Compositor/HDR/downscale3x3brightpassHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/downscale3x3brightpassHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:10: Compiler error: invalid parameters in hdr.material(134): setting of constant failed
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/bloomHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Ogre/Compositor/HDR/bloomHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/bloomHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/finaltonemappingHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Ogre/Compositor/HDR/finaltonemappingHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/HDR/finaltonemappingHLSL_fp in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: Parsing script HeatVision.material
+10:58:10: Parsing script Hurt.material
+10:58:10: Parsing script instancing.material
+10:58:10: Parsing script Invert.material
+10:58:10: Parsing script Island.material
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Island/VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Island/VP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Island/VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Island/FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Island/FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Island/FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: Parsing script IsoSurf.material
+10:58:10: Parsing script Laplace.material
+10:58:10: Parsing script Lift craft.material
+10:58:10: Parsing script MotionBlur.material
+10:58:10: Parsing script MRTtest.material
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/MRTtest/scenefp/HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Ogre/MRTtest/scenefp/HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/MRTtest/scenefp/HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/MRTtest/quadfp/HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program Ogre/MRTtest/quadfp/HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/MRTtest/quadfp/HLSL in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: Parsing script NightVision.material
+10:58:10: Parsing script Ocean.material
+10:58:10: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/OceanVS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: High-level program HLSL/OceanVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/OceanVS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:10: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:10: Compiler error: invalid parameters in Ocean.material(10): setting of constant failed
+10:58:10: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in Ocean.material(11): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in Ocean.material(12): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in Ocean.material(13): setting of constant failed
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/OceanFS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program HLSL/OceanFS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/OceanFS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/Ocean2VS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program HLSL/Ocean2VS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/Ocean2VS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in Ocean.material(268): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in Ocean.material(269): setting of constant failed
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/Ocean2FS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program HLSL/Ocean2FS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader HLSL/Ocean2FS in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: Parsing script OffsetMapping.material
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Examples/OffsetMappingIntegratedShadowsVPhlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program Examples/OffsetMappingIntegratedShadowsVPhlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Examples/OffsetMappingIntegratedShadowsVPhlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(199): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(200): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(201): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(202): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(204): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(205): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(207): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(208): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(209): setting of constant failed
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Examples/OffsetMappingIntegratedShadowsFPhlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program Examples/OffsetMappingIntegratedShadowsFPhlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Examples/OffsetMappingIntegratedShadowsFPhlsl in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(215): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(216): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(218): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(219): setting of constant failed
+10:58:11: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:11: Compiler error: invalid parameters in OffsetMapping.material(221): setting of constant failed
+10:58:11: Parsing script Ogre.material
+10:58:11: Parsing script OldMovie.material
+10:58:11: Parsing script OldTV.material
+10:58:11: Parsing script Palm.material
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Palm/VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program Palm/VP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Palm/VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Palm/FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: High-level program Palm/FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Palm/FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:11: Parsing script ParticleGS.material
+10:58:11: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/GenerateVS: CG ERROR : "The compile returned an error."
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:11: High-level program Ogre/ParticleGS/GenerateVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/GenerateVS: CG ERROR : "The compile returned an error."
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:11: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayVS: CG ERROR : "The compile returned an error."
+(249) : warning C7050: "output.color" might be used before being initialized
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:12: High-level program Ogre/ParticleGS/DisplayVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayVS: CG ERROR : "The compile returned an error."
+(249) : warning C7050: "output.color" might be used before being initialized
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:12: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: CG ERROR : "The compile returned an error."
+(323) : fatal error C9999: unexpected cast operation
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:12: High-level program Ogre/ParticleGS/DisplayPS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: CG ERROR : "The compile returned an error."
+(323) : fatal error C9999: unexpected cast operation
+ in CgProgram::loadFromSource at ..\..\..\..\..\PlugIns\CgProgramManager\src\OgreCgProgramManagerDll.cpp (line 67)
+10:58:12: Parsing script Penguin.material
+10:58:12: Parsing script Posterize.material
+10:58:12: Parsing script pssm.material
+10:58:12: Parsing script RadialBlur.material
+10:58:12: Parsing script Rescue Boat.material
+10:58:12: Parsing script RZR-002.material
+10:58:12: Parsing script ShaderSystem.material
+10:58:12: Parsing script shadows.material
+10:58:12: Parsing script SharpenEdges.material
+10:58:12: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/SharpenEdgesFP_ps_2_a in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:12: High-level program Ogre/Compositor/SharpenEdgesFP_ps_2_a encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader Ogre/Compositor/SharpenEdgesFP_ps_2_a in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:12: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:12: Compiler error: invalid parameters in SharpenEdges.material(22): setting of constant failed
+10:58:12: Parsing script ship ltte no1.material
+10:58:12: Parsing script Ship.material
+10:58:12: Parsing script sibenik.material
+10:58:12: Parsing script SkyBox.material
+10:58:12: Parsing script slg.material
+10:58:12: Parsing script smoke.material
+10:58:12: Parsing script sriyan lasantha.material
+10:58:12: Parsing script sriyan.material
+10:58:12: Parsing script Submarine.material
+10:58:12: Parsing script target_pointer.material
+10:58:12: Parsing script Tiling.material
+10:58:12: Parsing script VarianceShadowmap.material
+10:58:12: Parsing script smoke.particle
+10:58:12: Parsing script Examples.compositor
+10:58:12: Finished parsing scripts for resource group General
+10:58:12: Parsing scripts for resource group Hydrax
+10:58:12: Finished parsing scripts for resource group Hydrax
+10:58:12: Parsing scripts for resource group Internal
+10:58:12: Finished parsing scripts for resource group Internal
+10:58:12: Mesh: Loading slg.mesh.
+10:58:12: WARNING: slg.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+10:58:12: Texture: 8498.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:14: Texture: Metal_Rust_Wall_ship_texture_by_ebstock.jpg: Loading 1 faces(PF_R8G8B8,4288x2848x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,4288x2848x1.
+10:58:20: Texture: pirate-flag-jolly-roger-game.jpg: Loading 1 faces(PF_R8G8B8,2560x1600x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,2560x1600x1.
+10:58:22: Texture: ct_fr.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: Texture: ct_bk.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: Texture: ct_lf.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: Texture: ct_rt.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: Texture: ct_up.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: Texture: ct_dn.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:58:23: [Hydrax] Hydrax created.
+10:58:23: [Hydrax] HydraxDemo.hdx loaded.
+10:58:23: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader _Hydrax_GodRays_VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:23: High-level program _Hydrax_GodRays_VP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader _Hydrax_GodRays_VP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:23: OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader _Hydrax_GodRays_FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:23: High-level program _Hydrax_GodRays_FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(3:RenderingAPIException): Cannot assemble D3D9 high-level shader _Hydrax_GodRays_FP in D3D9HLSLProgram::loadFromSource at ..\..\..\..\..\RenderSystems\Direct3D9\src\OgreD3D9HLSLProgram.cpp (line 228)
+10:58:23: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+10:58:23: DefaultWorkQueue('Root') shutting down on thread 0062C598.
+10:58:23: DefaultWorkQueue('Root')::WorkerFunc - thread 00651030 stopped.
+10:58:23: DefaultWorkQueue('Root')::WorkerFunc - thread 00650F70 stopped.
+10:58:23: DefaultWorkQueue('Root')::WorkerFunc - thread 00650D00 stopped.
+10:58:23: DefaultWorkQueue('Root')::WorkerFunc - thread 00650F40 stopped.
+10:58:23: PCZone Factory Type 'ZoneType_Octree' unregistered
+10:58:23: PCZone Factory Type 'ZoneType_Terrain' unregistered
+10:58:23: Unregistering ResourceManager for type BspLevel
+10:58:23: *-*-* OGRE Shutdown
+10:58:23: Unregistering ResourceManager for type Compositor
+10:58:23: Unregistering ResourceManager for type Font
+10:58:23: Unregistering ResourceManager for type Skeleton
+10:58:23: Unregistering ResourceManager for type Mesh
+10:58:23: Unregistering ResourceManager for type HighLevelGpuProgram
+10:58:23: Uninstalling plugin: Octree Zone Factory
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_OctreeZone
+10:58:23: Uninstalling plugin: Portal Connected Zone Scene Manager
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_PCZSceneManager
+10:58:23: Uninstalling plugin: Cg Program Manager
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_CgProgramManager
+10:58:23: Uninstalling plugin: BSP Scene Manager
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_BSPSceneManager
+10:58:23: Uninstalling plugin: ParticleFX
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_ParticleFX
+10:58:23: Uninstalling plugin: Octree & Terrain Scene Manager
+10:58:23: Plugin successfully uninstalled
+10:58:23: Unloading library .\Plugin_OctreeSceneManager
+10:58:23: Uninstalling plugin: D3D9 RenderSystem
+10:58:25: D3D9 : Shutting down cleanly.
+10:58:25: Unregistering ResourceManager for type Texture
+10:58:25: Unregistering ResourceManager for type GpuProgram
+10:58:25: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+10:58:25: Plugin successfully uninstalled
+10:58:25: Unloading library .\RenderSystem_Direct3D9
+10:58:25: Unregistering ResourceManager for type Material

@@ -1,0 +1,22 @@
+
+material Material#2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.552941 0.552941 0.552941 1
+			diffuse 0.552941 0.552941 0.552941 1
+			specular 0.044902 0.044902 0.044902 1 25
+
+			texture_unit
+			{
+				texture PLATEOX2.JPG
+			}
+		}
+
+	}
+
+}
+
+

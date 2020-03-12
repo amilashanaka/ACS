@@ -1,0 +1,538 @@
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-size:1.1em;
+    font-family:"Arial Unicode MS",Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;
+    background-color:#fff;
+    background-image: url(../images/gruen_senkrecht.png); 
+    background-repeat:no-repeat;    
+    min-width: 950px;
+    outline-style:none;
+}
+
+img {border: 0px;}
+div.banner img {border: 1px solid green;background-color:white;text-align:center;}
+img[alt] { font-size:11px; }
+
+a {outline-style:none;}
+#page {
+    position:relative;
+    margin:0 auto;
+}
+
+#header {
+    margin:0 0 0 20px;
+    height: 139px;
+    display:block;
+    position:relative;
+    background-color:#fff;
+}
+
+#logo {
+    position:relative;
+    display:block;
+    float:left;
+    margin-top: 0;
+    margin-top:25px;
+    margin-left:50px;
+    margin-bottom:2px;
+}
+/*	neu	*/
+#banner {
+    position:absolute;
+    display:block;
+    float:left;
+    margin-top: 25px;
+    margin-left:220px;
+    margin-bottom:50px;
+}
+
+#headerLinks {
+    z-index:0;
+    position:absolute;
+    display:block;
+    top:25px;
+    right:20px;
+    padding:0.2em 0.5em;
+    background-color: #ededed;
+    border: 1px solid #dedede;
+}
+
+#languages {
+    margin-top: 1px;
+}
+
+#languages .CUR {
+    display:inline;
+    float:none;
+}
+
+#languages .CUR img {
+    display:none;
+}
+
+#languages .CUR a img {
+    display:inline;
+}
+
+#languages .CUR a {
+    opacity:1;
+}
+
+#languages .NO {
+    display:inline;
+    float:none;
+}
+
+#languages .NO a {
+    opacity:0.5;
+}
+
+#languages .NO a:hover {
+    opacity:1;
+}
+
+#languages .INACT {
+    display:inline;
+    float:none;
+    opacity:0.5;
+}
+
+#languages a {
+}
+
+#languages a:hover {
+}
+
+#languages img {
+}
+
+#headerMenu {
+    float:left;
+    margin-left:0.1em;
+    margin-bottom:0.2em;
+    font-size:0.7em;
+    color:#005F45;
+}
+
+#headerMenu .menu_link {
+    font-size:0.9em;
+    color:#036;
+    text-decoration:none;
+}
+
+/* login unter CiA */
+#headrow {
+    margin-left:20px;   
+    height:1.4em; 
+    border-top:1px solid #dedede;
+    border-bottom:1px solid #dedede; 
+    background-color:#ededed; 
+    font-size:0.8em;
+    line-height:1.3em;
+}
+#login {
+    position:relative;
+    top:0px;
+    padding-left:50px;
+    float:left;
+}
+
+#login a {
+    text-decoration:none;
+    color:#b22222;
+}
+
+
+html:root #menu a { }
+
+#menu {
+    position:relative;
+    top:0px;
+    display:block;
+    margin:0;
+    padding: 0 0 0 180px;
+}
+#menu a {
+    position:relative;
+    top:0;
+    display:block;
+    float:left;
+    width:9.7em;
+    height:1.4em;
+    vertical-align:middle;
+    /*border-right: 1px solid #efe5d1;  */  
+    border-left:1px solid #dedede;
+    text-align:center;
+}
+#menu .fake {
+    width:1px;
+}
+
+
+#menu a:hover {    
+    /*background-color:#00b389;*/
+    background-color:#fff;
+    text-decoration:none;
+}
+
+#menu a.actual {
+    background-color:#fff;
+    border-bottom:1px solid #fff;
+    color: #000;
+    font-weight:bold;
+}
+
+#menu a.last, #menu a.last:hover {
+    position:relative;
+    top:0;
+    display:block;
+    float:left;
+    width:0px;
+    /*height:20px;*/
+    vertical-align:middle;
+    /*border-right: 1px solid #efe5d1; */   
+    border-left:1px solid #efe5d1;
+}
+
+#menu a:link,
+#menu a:visited,
+#menu a:active,
+#menu a:focus {
+  color:#000000;
+  text-decoration:none;
+}
+
+#menu a:hover {
+  color:#000000;
+  text-decoration:underline;
+}
+
+#breadcrumbs {
+    clear:both;
+    /* */position:relative;
+    top:5px;
+    height:20px;
+    margin-left: 240px;
+    margin-top:0.2em;
+    /*background-color:lime;*/
+    font-size: 0.7em;
+    line-height:1.5em;
+}
+
+
+
+/*
+#rechteBox {
+	float:left;	
+	margin-right:0.5em;
+	width:170px;
+	border:1px solid #dedede; 
+	background-color:#ededed;
+	font-size:0.7em;
+	line-height:1.5em;
+}
+	
+#rechteBox div.head {
+	height:1.8em;	 
+	background-color:#fff;
+	font-size:1em;
+	font-weight: bold;
+	text-align:center;
+	color:#009173;
+}
+
+	
+#rechteBox div{
+    padding:0.1em 0.1em 0 0.1em;
+	font-size:1em;
+	font-weight: normal;
+	text-align:center;
+	color:#000;
+}
+	
+#rechteBox a {
+	display:block;
+	padding:3px 0 7px 0;
+}
+*/
+#breadcrumbs span { 
+   background-color:#fff;
+}
+
+#breadcrumbs span a {
+   text-decoration:none; 
+   color:#000;
+}
+
+#pageBody {
+    position:relative;
+    top:5px;
+    left:20px;
+    width:98%;
+    /*height:auto;    
+    padding-bottom: 1em;
+    min-height:400px;*/    
+    background-color:#fff;
+}
+
+#pageBodyContainer {
+    background-color:#fff;
+    margin-top:0.9em; 
+}
+
+#pageBodyLeft {
+    position:relative;
+    right:0;
+    border-left:200px solid #fff; 
+    }
+
+#pageBodyRight {
+    position:absolute;
+    left:0;
+    width:180px;
+}
+
+html:root #pageBodyRight {
+    top:0px;
+}
+
+#submenu {
+    display:block;
+    margin-top: 0;
+    padding-bottom:30px;
+    text-align:left;
+    color:#fff; 
+}
+
+#submenu a:link,
+#submenu a:visited,
+#submenu a:active,
+#submenu a:focus {
+  color:#000000;
+  text-decoration:none;
+}
+
+#submenu a:hover {
+  color:#000000;
+  text-decoration:underline;
+}
+
+#submenu div {
+    display:block;
+    /*background-color: #fff;*/
+    background-color: #ededed;
+    /*border-top:1px solid #efe5d1;
+    border-bottom:1px solid #efe5d1;
+    border-right:1px solid #efe5d1;*/
+}
+
+#submenu .lift,
+#submenu .lift:hover {  
+    height:1.3em;
+    margin-top:0.2em;
+    border-top:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+    border-right:1px solid #dedede;
+    background-color:#ffffff; 
+}
+#submenu .lift span { 
+    font-family:"Arial narrow", Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#525252;
+}
+#submenu .lift a,
+#submenu .lift a:hover {
+    color:#009173; 
+    text-decoration:none; 
+    border:0;
+}
+
+#submenu .cleanopen {  
+    height:1.3em; 
+    margin-bottom:1.2em;
+    border-bottom:1px solid #dedede;
+    border-right:1px solid #dedede;
+    border-top:0px solid #dedede; 
+    background-color: #ffffff;
+    font-style:italic;
+}
+#submenu .cleanopen strong {  
+    font-weight:bold;
+    font-style:normal; 
+    font-size:1em;
+}
+#submenu .cleanopen span { 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-weight:normal;
+    font-style:normal;
+    color:#009173;
+}
+#submenu .cleanopen a,
+#submenu .cleanopen a:hover {
+    color:#009173; 
+    text-decoration:none; 
+    border:0;
+}
+
+
+#submenu .fakeoben {
+    /*border-top:1px solid #dedede;*/
+    border-bottom:1px solid #dedede;
+  /*  border-right:1px solid #dedede;  */ 
+  /*  height:1.2em; */
+    background-color: #ffffff;
+    height:1px; 
+}
+
+#submenu .fakeunten {
+  /*  border-bottom:1px solid #dedede;
+    border-right:1px solid #dedede;*/
+    border-top:0px solid #dedede;   
+  /*  height:1.2em; */
+    background-color: #ffffff;
+    height:1px; 
+    margin-bottom:0.1em;
+}
+
+
+/* das sub-sub-menu */
+#submenu div div {
+    display:block;
+    border:none;
+    /*border-left:25px solid #00A780;*/
+    border-left:20px solid #fff;
+}
+
+#submenu div a {
+    display:block;
+    padding:0.3em 0.4em;
+    /*border-top:1px dotted #ededed;*/
+    border-bottom:1px solid #dedede;
+    /*font-weight:bold;*/
+    text-decoration:none;
+    border-right:1px solid #dedede;
+    font-size:0.8em;
+}
+/* das sub-sub-menu anchor */
+#submenu div div a {
+    display:block;
+    font-weight:normal;
+    /*border-top:1px solid #ededed;*/
+    border-right:1px solid #dedede;
+    border-bottom:1px solid #fff;
+    font-size:0.8em;
+}
+#submenu div div * a {/*border-top:1px solid #fff;*/}
+#submenu div div * a:hover {border-top:1px solid #dedede;}
+
+#submenu div div a:hover {
+    display:block;
+    font-weight:normal;
+    border-right:1px solid #fff;
+    background-color: #fff;
+    border-bottom:1px solid #dedede;
+    font-size:0.8em;
+    font-weight:bold;
+}
+
+#submenu div div a.current:hover {
+    font-weight:bold;
+}
+
+#submenu div div a:hover {
+    font-weight:normal;
+}
+
+#submenu div a.actual {
+    /*background-color:#00A780;*/
+	background-color:#fff;
+	border-right:1px solid #fff;
+	color: #000;
+	font-weight:bold;
+}
+
+#submenu div a.current {
+    /*background-color:#00A780;*/	
+    border-right:1px solid #fff;
+	background-color:#fff;
+	color: #000;
+	font-weight:bold;
+}
+
+#submenu div a:hover {
+    /*ackground-color:#00A780;*/
+	background-color:#fff;	
+    border-right:1px solid #fff;
+}
+/* groessenanpassung -> padding weg eh 2009-10-2 */
+#submenu img {
+    border-top:1px solid #009173;
+    border-right:1px solid #009173;
+    border-bottom:1px solid #009173;
+    border-left:0;
+    /*padding:0px 31px;*/
+    margin: 2px 0; 
+}
+#submenu img#sbanner, #submenu img.sbanner {
+    border:0; padding:0;
+}
+
+#submenu .submenubanner {
+    border-top:1px solid #ffffff;
+    border-right:1px solid #ffffff;
+    border-bottom:1px solid #ffffff;    
+    border-left:0;
+    padding:0px;
+    margin: 2px 0;
+}
+
+/*
+#menu {
+    position:fixed;
+    bottom:0;
+    right:0px;
+    width:150px;
+    height:auto;
+    border-right:25px solid #009966;
+    text-align:right;
+}
+
+#button {
+    position:relative;
+    width:75%;
+    margin: 220px auto;
+}
+
+#abstand {clear:both; float:none; height;5em; background-color:lime; width:100%;}
+
+#button img {
+    margin: 0 auto;
+    border:1px solid #008364;
+}
+*/
+#foot {
+    clear:both;
+    position: fixed !important;
+    position:absolute;
+    bottom:0px; 
+    width:99%;
+    border-top: 1px solid #dedede;    
+    background-color:#fff;
+    padding: 0.4em 0.2em 0 0.2em;      
+    font-size:0.7em; 
+    text-align:center;
+}
+
+#foot a {
+    color:#036;
+    text-decoration:none;
+}

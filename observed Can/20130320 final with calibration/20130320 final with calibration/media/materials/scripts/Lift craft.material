@@ -1,0 +1,17 @@
+
+material wokod_mebel
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.498039 0.498039 0.498039 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0.156863 0.156863 0.156863 1 85
+		}
+
+	}
+
+}
+
+

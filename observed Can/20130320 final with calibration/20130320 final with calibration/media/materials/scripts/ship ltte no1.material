@@ -1,0 +1,75 @@
+
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material 01-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture Metal_Rust_Wall_ship_texture_by_ebstock.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 03-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0901961 0.0901961 0.0901961 1
+			diffuse 0.0901961 0.0901961 0.0901961 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material 07-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture 800px-Flag_of_Tamil_Eelam.svg.png
+			}
+		}
+
+	}
+
+}
+
+

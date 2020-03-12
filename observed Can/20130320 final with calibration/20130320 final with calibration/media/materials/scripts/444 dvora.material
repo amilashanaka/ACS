@@ -1,0 +1,218 @@
+
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0588235 0.0588235 0.0588235 1
+			diffuse 0.513726 0.513726 0.564706 1
+			specular 0.225 0.225 0.225 1 25
+		}
+
+	}
+
+}
+
+
+
+material ring-buoy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.181698 0.0640517 0.172547 1
+			diffuse 0.545098 0.192157 0.517647 1
+			specular 0.252 0.252 0.252 1 25
+
+			texture_unit
+			{
+				texture W-red.tif
+			}
+		}
+
+	}
+
+}
+
+
+
+material holder
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0588235 0.0588235 0.0588235 1
+			diffuse 0.513726 0.513726 0.564706 1
+			specular 0.117 0.117 0.117 1 25
+		}
+
+	}
+
+}
+
+
+
+material glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0627451 0.117647 0.0784314 1
+			diffuse 0.266667 0.501961 0.501961 1
+			specular 1 1 1 1 45
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material gun
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0588235 0.0588235 0.0588235 1
+			diffuse 0.333333 0.333333 0.364706 1
+			specular 0.531 0.531 0.531 1 33
+		}
+
+	}
+
+}
+
+
+
+material grey
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0588235 0.0588235 0.0588235 1
+			diffuse 0.513726 0.513726 0.564706 1
+			specular 0.225 0.225 0.225 1 25
+		}
+
+	}
+
+}
+
+
+
+material side
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material misk
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.117647 0.117647 0.117647 1
+			specular 0.279 0.279 0.279 1 25
+		}
+
+	}
+
+}
+
+
+
+material deck
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.341176 0.341176 0.341176 1
+			specular 0.234 0.234 0.234 1 25
+		}
+
+	}
+
+}
+
+
+
+material r_number
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material l_number
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0627451 0.117647 0.0784314 1
+			diffuse 0.266667 0.501961 0.501961 1
+			specular 1 1 1 1 45
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+

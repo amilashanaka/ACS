@@ -1,0 +1,12 @@
+; C:\Documents and Settings\Administrator\Desktop\sese.xmt
+; CAN messages saved by PCAN-View 3.1.4
+;
+; Columns descriptions:
+; ~~~~~~~~~~~~~~~~~~~~~
+; +Message ID
+; |            +Cycle time in ms (0=manual)
+; |            |  +Length of message
+; |            |  |  +Frame type: D)ata or R)emote request
+; |            |  |  |  +Message data
+; |            |  |  |  |
+202h        1000  1  D 00h

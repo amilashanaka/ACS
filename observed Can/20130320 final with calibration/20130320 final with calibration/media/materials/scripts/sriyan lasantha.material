@@ -1,0 +1,182 @@
+
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material 04-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.917647 0.419608 0.380392 1
+			diffuse 0.917647 0.419608 0.380392 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material 01-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture Metal_Rust_Wall_ship_texture_by_ebstock.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material wepon
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0901961 0.0901961 0.0901961 1
+			diffuse 0.0901961 0.0901961 0.0901961 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.12549 0.466667 0.180392 1
+			diffuse 0.12549 0.466667 0.180392 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material 07-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture pirate-flag-jolly-roger-game.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 13-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture 8498.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material tisar
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.133333 0.141176 0.25098 1
+			diffuse 0.133333 0.141176 0.25098 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.87451 0.733333 0.690196 1
+			diffuse 0.87451 0.733333 0.690196 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
+
+material tttt
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0588235 0.0588235 0.0588235 1
+			diffuse 0.0588235 0.0588235 0.0588235 1
+			specular 0 0 0 10 0
+		}
+
+	}
+
+}
+
+
